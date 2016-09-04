@@ -12,6 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var quote = Quote()
+        
+        quote.fetchAQuote()
+        
+     print(quote.quoteAuthor)
+        
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
